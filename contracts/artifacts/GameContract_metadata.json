@@ -17,6 +17,19 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_winner",
+						"type": "address"
+					}
+				],
+				"name": "winnerChoosed",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -73,6 +86,13 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "makeADecision",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -103,11 +123,11 @@
 	},
 	"sources": {
 		"contracts/GameContract.sol": {
-			"keccak256": "0xe3cb55857c03fc8524c44fc0cd5d2729140cc4fa0808b7480965438a1684f950",
+			"keccak256": "0x0c5791e619284fe5a84ed0594db39d622b632a76322e700f432b6c5d86451bd1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://08df06414311caf53ce4cfcd362f10e0aa4adf1b491234bc9e7a59c142fa0c9d",
-				"dweb:/ipfs/QmeD2pVW731Dq9Yi1kh6KN2AR9hBMep4kheqmc8UsZRfTu"
+				"bzz-raw://4a04b49de7b88d2277887968e67f84b9698e1a8377718d761d0b869f268b013f",
+				"dweb:/ipfs/QmeKFSH2X5xy6ZHL3L8SqRFM5No3jAGdCjRLxttqR7kcHy"
 			]
 		}
 	},
